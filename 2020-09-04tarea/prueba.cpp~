@@ -1,0 +1,12 @@
+#include<iostream>
+
+int main(int argc, char**argv)
+
+{
+  int  n=0;
+  std::cout <<  "Escriba cualquier numero entero, por favor: " << std::endl; 
+  std::cin >> n; 
+  std::cout << "Este nùmero tiene modulo " << n%2 << "cuando se divide entre 2";
+  std::cout<< (argc)<< std::endl; 
+  return 0;
+}

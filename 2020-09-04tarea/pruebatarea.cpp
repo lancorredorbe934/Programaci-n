@@ -1,0 +1,26 @@
+#include<iostream>
+int main (void)
+{
+  int n=0,i=0;
+  std::cout<<"Escriba cualquier nùmero entero: " <<std::endl;
+  std::cin >> n;
+  std::cout << std::endl;
+  std::cout<< "La secuencia de Collatz para el numero "<< n<<" es"<<std::endl;
+
+  for(i=0; n>=1; ++i){
+    std::cout<< n << ", ";
+    if(n%2 == 0){
+      n/=2;
+    }
+    else if(n%2==1 && n!=1){
+      n=3*n+1;
+    }
+    else{
+      n=0;
+    }
+  }
+  
+  std::cout<<"y la cantidad de números que tiene esta secuencia es "<< i <<std::endl;
+  
+  return 0;
+}
