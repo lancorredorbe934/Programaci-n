@@ -4,7 +4,10 @@ int suma(int m, int n);
 
 int main(void)
 {
-  std::cout<< suma(1, 10) <<std::endl; 
+  std::cout<< suma(1, 10) <<std::endl;
+  std::cout<< suma(200000, 300000) <<std::endl;
+  
+
   return 0;
 }
 
