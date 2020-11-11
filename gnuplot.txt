@@ -1,0 +1,6 @@
+plot 'datos.txt' w lp pt 4 t 'Euler-Method'  --->
+graficar con líneas y puntos y titulo Euler-Method
+
+plot 'datos.txt' w lp pt 4 t 'Euler-Method with DT=0.01', 'datos1.txt' w lp pt 4t 'Euler-Method with DT=0.1' --->
+
+pintar dos o más gráficas. 

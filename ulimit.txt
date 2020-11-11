@@ -1,0 +1,5 @@
+este comando en linux nos ayuda a conocer el tamaño límite de nuestro
+stack----> ulimit -a
+
+ES útil para saber cuánto es lo máximo que puedo tener en mi memoria,
+dependiendo de qué tipo de datos(así varía el tamaño) que esté usando o quiera usar.

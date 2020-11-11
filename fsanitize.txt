@@ -1,0 +1,10 @@
+g++ -g -fsanitize=address -fsanitize=leak -fsanitize=undefined
+
+use este comando al compilar para verificar que su código no tenga errores
+que no está visualizando con la ejecucion o compilación normal.
+
+-fsanitize=address---> verifica que no se esté haciendo violaciones de
+ -memoria---> segmentation fault. CUando se está tratando de acceder a una
+ -memoria a la que no se tiene acceso. 
+ -fsanitize=undefined---> comportamiento indefinido o divsión por cero, p.ej.
+ -fsanitize=leak---> cuando se pide memoria en el heap,pero no se retorna.
